@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="colorControlActivated">@color/purple_400</item>
+    </style>
+    <style name="CustomDialogAlert" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/purple_300</item>
+
+        <!-- Cambiar el color del texto del título del diálogo -->
+        <item name="android:textColorPrimary">@color/purple_600</item>
+
+        <!-- Cambiar el color del texto del contenido del diálogo -->
+        <item name="android:textColor">@color/purple_600</item>
+
+        <!-- Cambiar el color del botón positivo del diálogo -->
+        <item name="colorAccent">@color/purple_600</item>
+
+        <!-- Cambiar el color del botón negativo del diálogo -->
+        <item name="android:textColorSecondary">@color/purple_600</item>
+    </style>
+</resources>
